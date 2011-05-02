@@ -22,11 +22,12 @@
       "runtime" : {
          "requires" : {
             "JSON" : "2.51",
+            "REST::Client" : "171",
             "XML::Simple" : "2.18"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

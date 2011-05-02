@@ -21,9 +21,10 @@ my %WriteMakefileArgs = (
   'NAME' => 'WWW::MediaTemple',
   'PREREQ_PM' => {
     'JSON' => '2.51',
+    'REST::Client' => '171',
     'XML::Simple' => '2.18'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
